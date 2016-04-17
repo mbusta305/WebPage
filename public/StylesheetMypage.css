@@ -2,70 +2,55 @@
 body {
 	font-family: 'Federo', sans-serif;
 }
-
 #home, #about, #portfolio {
 	padding-top: 13vh;
 }
-
 /*header*/
-
 .navbar {
   border: none;
 }
-
 .navbar-brand {
     padding: 15px 15px;
     font-size: 15px;
 }
-
 .navbar-default {
     background-color: rgb(29, 228, 214);
     margin: 0;
 }
-
 .navbar-default .navbar-brand {
     color: black;
 		font-family: 'Federo', sans-serif;
 }
-
- .navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:focus,
   .navbar-default .navbar-nav>li>a:hover {
     color: #254117;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
-
 .navbar-default .navbar-brand:focus,
 	.navbar-default .navbar-brand:hover {
     	color: #254117;
     	transition: all 0.3s ease-in-out;
     	-webkit-transition: all 0.3s ease-in-out;
 }
-
-
 /*home*/
 /*social media links*/
 .btn{
-
 	border: 2.5px solid transparent;
 	border-radius: 0px;
 	padding: 7px 15px;
 	margin: 3px;
 }
-
 .btn-default{
 	background-color: transparent;
 	color: white;
 	border-color: white;
 }
-
 /*home front styling*/
-
 #front {
   min-height: 100vh;
   padding-top: 15vh;
 }
-
 #front h1 {
 	font-size: 25px;
 	display:inline-block;
@@ -76,12 +61,10 @@ body {
     transform:scale(1.9,1.7); /* W3C */
 	line-height: 1.7;
 }
-
 #front p {
 	font-size: 28px;
 	margin-bottom: 15px;
 }
-
 #front span {
 	font-size: 50px;
 }
@@ -89,7 +72,6 @@ body {
 	height: 100%;
 	width: 100%;
 }
-
 #home {
 	background: url(https://dl.dropboxusercontent.com/s/h5phguw47v63pwp/desk.jpg?dl=0) center center;
 	background-attachment: fixed, scroll;
@@ -102,13 +84,10 @@ body {
 	text-align: center;
 	color: white;
 }
-
 .redressed {
 	font-family: 'Redressed', cursive;
 }
-
 /*About styling*/
-
 #about {
 	text-align: center;
 	min-height: 100vh;
@@ -128,34 +107,38 @@ body {
 	display: inline-block;
 	height: 33vh;
 }
-
 /*Portfolio*/
-
-
 #portfolio {
 	text-align: center;
 	width: 100%;
 	height: 100%;
 	background: #555;
 }
-
 img portfolio {
     height: 100%;
     width: 100%;
 }
-
 .portfolio figure{
 	overflow: hidden;
 	margin: 10% 10% 10% 10%;
-	/*transition: box-shadow .3s ease-in-out;*/
-}
 
+}
+.portfolio figure a img {
+  height: 315px;
+  width: 535px;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.portfolio figure a:hover img {
+	-webkit-transform: scale(1.4);
+	transform: scale(1.4);
+}
 .portfolio figure:hover {
-	/*box-shadow: 10px 10px 10px #000;*/
-}
-
-/*Contact*/
-
+		box-shadow: 10px 10px 10px #000;
+  }
+  /*Contact*/
 #contact {
 	background: url(https://dl.dropboxusercontent.com/s/h5phguw47v63pwp/desk.jpg?dl=0) center center;
 	background-attachment: fixed, scroll;
@@ -168,19 +151,15 @@ img portfolio {
 	text-align: center;
 	color: white;
 }
-
 #contact .btn-default {
     color: #FFF;
     border-color: #FFF;
 }
-
 #contact p, #contact ul li {
 	font-size: 15px;
   list-style: none;
   text-align: center;
 }
-
-
 @media (min-width: 768px) {
     #about, #home, #portfolio {
 	    padding-top: 9vh;
@@ -201,9 +180,7 @@ img portfolio {
   		float: right;
 	}
 }
-
 /*hover styling*/
-
 .hvr-bounce-to-right {
   display: inline-block;
   vertical-align: middle;
@@ -219,7 +196,6 @@ img portfolio {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-
 .hvr-bounce-to-right:before {
   content: "";
   position: absolute;
@@ -240,7 +216,6 @@ img portfolio {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
 /*button styling*/
 .hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
   	color: #333;
