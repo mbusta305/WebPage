@@ -33,6 +33,16 @@ body {
     	transition: all 0.3s ease-in-out;
     	-webkit-transition: all 0.3s ease-in-out;
 }
+.navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus,
+  .navbar-default .navbar-nav>.active>a:hover{
+  	color: #254117;
+    background: none;
+  }
+.navbar-nav {
+  font-size: 18px;
+  padding-right: 0px;
+}
 /*home*/
 /*social media links*/
 .btn{
@@ -73,7 +83,8 @@ body {
 	width: 100%;
 }
 #home {
-	background: url(https://scontent-mia1-1.xx.fbcdn.net/hphotos-xap1/t31.0-8/12973215_10101825689520933_6065489713600049354_o.jpg) center center;
+	background:
+url(https://scontent-mia1-1.xx.fbcdn.net/hphotos-xap1/t31.0-8/12973215_10101825689520933_6065489713600049354_o.jpg) center center;
 	background-attachment: fixed, scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -94,7 +105,6 @@ body {
 	width: 100%;
 	background: #1DE4D6;
 }
-
 .about {
 	padding: 0% 15%;
 }
@@ -115,9 +125,9 @@ body {
 	height: 100%;
 	background: #555;
 }
-img portfolio {
+/*img portfolio {
     height: 100%;
-    width: 100%;
+    width: 100%;*/
 }
 .portfolio figure{
 	overflow: hidden;
@@ -151,6 +161,7 @@ img portfolio {
 	width: 100%;
 	text-align: center;
 	color: white;
+	padding: 21vh 0%;
 }
 #contact .btn-default {
     color: #FFF;
@@ -168,9 +179,7 @@ img portfolio {
 	.about {
 		padding: 0% 25%;
 	}
-	#front {
-  		padding: 21vh 21vh 0vh 10vh;
-	}
+	
 	#nav {
 		padding: 0px 55px;
 	}
@@ -181,6 +190,7 @@ img portfolio {
   		float: right;
 	}
 }
+
 /*hover styling*/
 .hvr-bounce-to-right {
   display: inline-block;
