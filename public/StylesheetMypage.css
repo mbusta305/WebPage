@@ -172,6 +172,7 @@ margin: 5px;
 border: 1px solid #ccc;
 float: left;
 width: 180px;
+flex-wrap: wrap;
 }
 
 div.img:hover {
@@ -200,12 +201,12 @@ color: white;
 	min-height: 1e%;
 	width: 100%;
 	text-align: center;
-	color: white;
+	color: #1DE4D6;
 	padding: 21vh 0%;
 }
 #contact .btn-default {
-    color: #FFF;
-    border-color: #FFF;
+    color: #1DE4D6;
+    border: none;
 }
 #contact p, #contact ul li {
 	font-size: 15px;
@@ -213,7 +214,7 @@ color: white;
   text-align: center;
 }
 @media (min-width: 768px) {
-    #about, #home, #portfolio {
+    #about, #home, #portfolio, #contact {
 	    padding-top: 9vh;
     }
 	.about {
