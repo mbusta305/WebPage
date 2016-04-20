@@ -6,6 +6,7 @@ body {
 	padding-top: 13vh;
 }
 /*header*/
+<<<<<<< HEAD
 form {
 	text-align: right;
 }
@@ -21,13 +22,18 @@ header ul {
     width: 100%;
 }
 
+=======
+>>>>>>> 8b68071c3413ef580c0c16554eb67cff56cfee31
 .navbar {
   border: none;
 }
 .navbar-brand {
     padding: 15px 15px;
     font-size: 15px;
+<<<<<<< HEAD
 		text-decoration: none;
+=======
+>>>>>>> 8b68071c3413ef580c0c16554eb67cff56cfee31
 }
 .navbar-default {
     background-color: rgb(29, 228, 214);
@@ -49,6 +55,7 @@ header ul {
     	transition: all 0.3s ease-in-out;
     	-webkit-transition: all 0.3s ease-in-out;
 }
+<<<<<<< HEAD
 .navbar-default .navbar-nav>.active>a,
  .navbar-default .navbar-nav>.active>a:focus,
   .navbar-default .navbar-nav>.active>a:hover{
@@ -59,6 +66,8 @@ header ul {
   font-size: 18px;
   padding-right: 0px;
 }
+=======
+>>>>>>> 8b68071c3413ef580c0c16554eb67cff56cfee31
 /*home*/
 /*social media links*/
 .btn{
@@ -67,6 +76,7 @@ header ul {
 	padding: 7px 15px;
 	margin: 3px;
 }
+<<<<<<< HEAD
 
 /*Social links */
 .btn-default{
@@ -74,6 +84,12 @@ header ul {
 	color: rgb(29, 228, 214);
 	text-decoration: none;
 
+=======
+.btn-default{
+	background-color: transparent;
+	color: white;
+	border-color: white;
+>>>>>>> 8b68071c3413ef580c0c16554eb67cff56cfee31
 }
 /*home front styling*/
 #front {
@@ -102,8 +118,12 @@ header ul {
 	width: 100%;
 }
 #home {
+<<<<<<< HEAD
 	background:
 url(https://scontent-mia1-1.xx.fbcdn.net/hphotos-xap1/t31.0-8/12973215_10101825689520933_6065489713600049354_o.jpg) center center;
+=======
+	background: url(https://scontent-mia1-1.xx.fbcdn.net/hphotos-xap1/t31.0-8/12973215_10101825689520933_6065489713600049354_o.jpg) center center;
+>>>>>>> 8b68071c3413ef580c0c16554eb67cff56cfee31
 	background-attachment: fixed, scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -144,11 +164,18 @@ url(https://scontent-mia1-1.xx.fbcdn.net/hphotos-xap1/t31.0-8/12973215_101018256
 	height: 100%;
 	background: #555;
 }
+<<<<<<< HEAD
 portfolio img {
     height: 100%;
     width: 100%;
 }
 
+=======
+img portfolio {
+    height: 100%;
+    width: 100%;
+}
+>>>>>>> 8b68071c3413ef580c0c16554eb67cff56cfee31
 .portfolio figure{
 	overflow: hidden;
 	margin: 10% 10% 10% 10%;
@@ -166,6 +193,7 @@ portfolio img {
 	-webkit-transform: scale(1.4);
 	transform: scale(1.4);
 }
+<<<<<<< HEAD
 
 div.img {
 margin: 5px;
@@ -190,6 +218,11 @@ text-align: center;
 color: white;
 }
 
+=======
+.portfolio figure:hover {
+		box-shadow: 10px 10px 10px #000;
+  }
+>>>>>>> 8b68071c3413ef580c0c16554eb67cff56cfee31
   /*Contact*/
 #contact {
 	background: url(https://scontent-mia1-1.xx.fbcdn.net/hphotos-xap1/t31.0-8/12973215_10101825689520933_6065489713600049354_o.jpg) center center;
@@ -198,6 +231,7 @@ color: white;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+<<<<<<< HEAD
 	min-height: 1e%;
 	width: 100%;
 	text-align: center;
@@ -207,6 +241,16 @@ color: white;
 #contact .btn-default {
     color: #1DE4D6;
     border: none;
+=======
+	min-height: 100vh;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+#contact .btn-default {
+    color: #FFF;
+    border-color: #FFF;
+>>>>>>> 8b68071c3413ef580c0c16554eb67cff56cfee31
 }
 #contact p, #contact ul li {
 	font-size: 15px;
@@ -214,13 +258,23 @@ color: white;
   text-align: center;
 }
 @media (min-width: 768px) {
+<<<<<<< HEAD
     #about, #home, #portfolio, #contact {
+=======
+    #about, #home, #portfolio {
+>>>>>>> 8b68071c3413ef580c0c16554eb67cff56cfee31
 	    padding-top: 9vh;
     }
 	.about {
 		padding: 0% 25%;
 	}
+<<<<<<< HEAD
 
+=======
+	#front {
+  		padding: 21vh 21vh 0vh 10vh;
+	}
+>>>>>>> 8b68071c3413ef580c0c16554eb67cff56cfee31
 	#nav {
 		padding: 0px 55px;
 	}
@@ -231,7 +285,10 @@ color: white;
   		float: right;
 	}
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8b68071c3413ef580c0c16554eb67cff56cfee31
 /*hover styling*/
 .hvr-bounce-to-right {
   display: inline-block;
